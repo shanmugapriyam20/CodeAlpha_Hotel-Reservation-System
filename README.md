@@ -42,6 +42,8 @@ Hotel_Reservation_System/
 2. **Compile all Java files**
    ```bash
    javac *.java
+   ```
+   
 3. Run the application
    ```bash 
      java Main
@@ -50,34 +52,46 @@ Hotel_Reservation_System/
 
  
 ##📸 Application Output
-Main Window
-The application starts with a window containing 3 buttons:
-View Rooms
-Book Room
-View Bookings
+
+
+### Main Window
+The application starts with a window containing 3 buttons: `View Rooms` `Book Room` `View Bookings`
 ### View Rooms Output
+```
 Room ID: 101, Type: Standard, Price: ₹1000.0, Available: true
 Room ID: 102, Type: Deluxe, Price: ₹2000.0, Available: true
 Room ID: 103, Type: Suite, Price: ₹3500.0, Available: true
-Book Room Dialog
+```
+### Book Room Dialog
 Clicking "Book Room" opens a dialog to enter:
 
 Customer Name, Email, Phone, Room ID, Check-In Date, Check-Out Date
-After booking, the room status changes to Available: false
-📌 Key Details
-Default Rooms:
-101 - Standard - ₹1000
-102 - Deluxe - ₹2000  
-103 - Suite - ₹3500
-Once booked, a room cannot be booked again until data is reset
-All bookings are stored in bookings.txt in the project folder
-##👨‍💻 Author
+
+
+After booking, the room status changes to `Available: false`
+
+
+## 📌 Key Details
+- **Default Rooms**:
+    - 101 - Standard - ₹1000
+    - 102 - Deluxe - ₹2000
+    - 103 - Suite - ₹3500
+- Once booked, a room cannot be booked again until data is reset
+- All bookings are stored in `bookings.txt` in the project folder
+
+
+## 👨‍💻 Author
+
+
 **Shanmugapriya M**
+
 CodeAlpha Internship - Task 4: Hotel Reservation System
 📅 July 2026
 
 
-##🙏 Acknowledgements 
+## 🙏 Acknowledgements 
+
+
 Thank you **CodeAlpha** for this internship opportunity to build real-world Java GUI applications! 💙
 
 ### **Now do this in VS Code:**
